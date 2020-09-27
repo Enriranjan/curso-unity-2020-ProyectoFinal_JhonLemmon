@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameEnding : MonoBehaviour
 {
@@ -10,9 +11,9 @@ public class GameEnding : MonoBehaviour
 
     private GameObject player;
 
-    public bool isPlayerAtExit;
+    public bool isPlayerAtExit, isPlayerDead;
 
-    public CanvasGroup exitBackgroundImageCanvasGroup;
+    public CanvasGroup exitBackgroundImageCanvasGroup, deadBackgroundImageCanvasGroup;
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +25,12 @@ public class GameEnding : MonoBehaviour
     {
         if (isPlayerAtExit)
         {
-            timer += Time.deltaTime;
-            exitBackgroundImageCanvasGroup.alpha = timer / fadeDuration;
+            EndLevel(exitBackgroundImageCanvasGroup, false);
+        }
+        else if (isPlayerDead)
+        {
+            EndLevel(deadBackgroundImageCanvasGroup, true);
 
-            if (timer > fadeDuration)
-            {
-                EndLevel();
-            }
         }
     }
 
@@ -43,10 +43,31 @@ public class GameEnding : MonoBehaviour
     }
     
     /// <summary>
-    /// Se encargara de desvanecer la imagen de Game Over, y de cerrar el juego
+    /// Se encargara de desvanecer la imagen de Game Over, y de cerrar o resetear el juego
     /// </summary>
-    void EndLevel()
+    /// <param name="imageCanvasGroup">El canvas que va apareciendo</param>
+    /// <param name="isRestart">Si deseamos reiniciar la partida</param>
+    void EndLevel(CanvasGroup imageCanvasGroup, bool isRestart)
     {
-        Application.Quit();
+        timer += Time.deltaTime;
+        imageCanvasGroup.alpha = timer / fadeDuration;
+
+        if (timer > fadeDuration)
+        {
+            if (isRestart)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                Application.Quit();
+            }
+            
+        }
+    }
+
+    public void CaughtPlayer()
+    {
+        isPlayerDead = true;
     }
 }
