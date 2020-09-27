@@ -20,12 +20,17 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
     private const string IS_WALKING = "IsWalking";
     
+    //GAME LOGIC
+    private GameEnding gameEnding;
+    
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = this.GetComponent<Rigidbody>();
         
         _animator = this.GetComponent<Animator>();
+
+        gameEnding = GameObject.FindWithTag("Game Ending").GetComponent<GameEnding>();
     }
 
     // Update is called once per frame

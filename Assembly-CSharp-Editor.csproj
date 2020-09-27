@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{d1fc0386-c0e5-30eb-3078-1bbc79530e36}</ProjectGuid>
+    <ProjectGuid>{5797ebd0-1db6-f282-1cc9-5539b57bea79}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -278,19 +278,19 @@
  <HintPath>C:/Program Files/Unity/Hub/2020.2.0b1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -638,81 +638,81 @@
  <HintPath>C:/Program Files/Unity/Hub/2020.2.0b1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Monetization">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/enrir/Desktop/Proyectos Unity/Proyecto5_JHONLEMON/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/enrir/Proyectos Unity/ProyectoFinal_JHONLEMON/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{f507b84a-4b4f-bcc0-ec02-2236aee076d9}</Project>
+      <Project>{662d853f-a91f-b730-59fb-7c192f187da3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
