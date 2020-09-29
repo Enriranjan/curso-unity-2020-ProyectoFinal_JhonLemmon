@@ -15,6 +15,9 @@ public class GameEnding : MonoBehaviour
 
     public CanvasGroup exitBackgroundImageCanvasGroup, deadBackgroundImageCanvasGroup;
 
+    [SerializeField] private AudioSource exitAudio, caughtAudio;
+    private bool hasAudioPlayed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,11 +28,11 @@ public class GameEnding : MonoBehaviour
     {
         if (isPlayerAtExit)
         {
-            EndLevel(exitBackgroundImageCanvasGroup, false);
+            EndLevel(exitBackgroundImageCanvasGroup, false, exitAudio);
         }
         else if (isPlayerDead)
         {
-            EndLevel(deadBackgroundImageCanvasGroup, true);
+            EndLevel(deadBackgroundImageCanvasGroup, true, caughtAudio);
 
         }
     }
@@ -47,12 +50,20 @@ public class GameEnding : MonoBehaviour
     /// </summary>
     /// <param name="imageCanvasGroup">El canvas que va apareciendo</param>
     /// <param name="isRestart">Si deseamos reiniciar la partida</param>
-    void EndLevel(CanvasGroup imageCanvasGroup, bool isRestart)
+    /// <param name="audioSource">El sonido que deseamos reproducir</param>
+    void EndLevel(CanvasGroup imageCanvasGroup, bool isRestart, AudioSource audioSource)
     {
+        if (!hasAudioPlayed)
+        {
+            audioSource.Play();
+            hasAudioPlayed = true;
+        }
+        
+        
         timer += Time.deltaTime;
         imageCanvasGroup.alpha = timer / fadeDuration;
 
-        if (timer > fadeDuration)
+        if (timer > fadeDuration && !audioSource.isPlaying)
         {
             if (isRestart)
             {

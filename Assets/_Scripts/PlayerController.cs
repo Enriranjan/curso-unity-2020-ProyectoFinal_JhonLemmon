@@ -23,12 +23,17 @@ public class PlayerController : MonoBehaviour
     //GAME LOGIC
     private GameEnding gameEnding;
     
+    //AUDIO
+    [SerializeField] private AudioSource _audioSource;
+    
     // Start is called before the first frame update
     void Start()
     {
         _rigidbody = this.GetComponent<Rigidbody>();
         
         _animator = this.GetComponent<Animator>();
+
+        _audioSource = this.GetComponent<AudioSource>();
 
         gameEnding = GameObject.FindWithTag("Game Ending").GetComponent<GameEnding>();
     }
@@ -50,6 +55,19 @@ public class PlayerController : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         
         _animator.SetBool(IS_WALKING, isWalking);
+
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+            
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
 
         /*calculamos hacia donde queremos que mire nuestro personaje a partir de su rotacion actual,
          la rotacion que aplicamos con el Input, la velocidad de giro, y*/
